@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #demo{
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      font-style: italic;
+      color:  rgb(231, 15, 15);
+
+  }
+  
+  
+  
+  .card_data{
+    margin-top: 20px;
+       padding: 10px;
+       margin-bottom: 5rem;
+       border: 2px solid black;
+       height: 32vh;
+       width: 17vw;
+       background-color: rgb(192, 187, 186);
+       border-radius: 15px;
+       font-size: 20px;
+       color: rgb(18, 15, 15);
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+       
+   }
+  #card{
+  
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   width: 60vw;
+   margin-left: 20rem;
+  }
+  
+  #input{
+      text-align: center;
+      height: 30%;
+      width: 50%;
+      border-radius: 5px;
+      color: black;
+      font-size: large;
+      font-family: cursive;
+  }
+  
+  .container{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(123, 153, 161, 0.936);
+      border-radius: 2px;
+      border: solid black;
+    
+  }
+  
+  #bgcolor{
+    background-color: rgb(158, 207, 207);
+  }
+  
+  
+  
+  
+  #btn1 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: solid black;
+    background-color: rgb(212, 133, 30);
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    padding: 10px 30px;
+    border: solid black;
+    border-radius: 10px;
+  }
+  
+  #btn1:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  #btn1:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  #btn1:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  #btn1:focus {
+    outline: 1px transparent;
+  }
+  
+  #btn1:before {
+    display: none;
+  }
+  
+  #btn1:-webkit-details-marker {
+    display: none;
+  }
+  
+  #inputt{
+      font-size: large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: solid black;
+      background-color: rgb(238, 233, 226);
+      width: 60%;
+      height: 45%;
+      font-style: italic;
+      text-align: center;
+      border: solid black;
+      border-radius: 5px;
+  }
+  
+  #inputt:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+ 
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: solid black;
+    background-color: rgb(164, 156, 156);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid black;
+    border-radius: 08px;
+    padding-left: 18px;
+  
+}
+  
